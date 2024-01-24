@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16;
+}
+
+input,
+select,
+textarea {
+  min-height: 45px !important;
+  border: 1px solid #ccc !important;
+  width: 100% !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #666565 !important;
+  box-shadow: none !important;
+}
+
+Button {
+  height: 45px !important;
+}
+
+table {
+  border: #dfdddd 1px solid !important;
+}
+i {
+  font-size: 20px;
+}
